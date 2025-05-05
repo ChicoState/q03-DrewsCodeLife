@@ -5,18 +5,6 @@
 #include <gtest/gtest.h>
 #include "Guesser.h"
 
-/* BEST PRACTICES (how to be a good boy)
-1) Unit tests should serve as reliable regression tests
-2) Unit tests should serve as documentation of expected behavior
-3) Unit tests should test the behavior, not the current implementation 
-4) A test suite should include both "happy" and "sad" tests 
-5) Class/function design should not be altered just to make testing easier
-6) Give each unit test a descriptive name 
-7) Test only one case in each unit test (ambiguity is bad)
-8) Unit test should focus on testing the results of one function if possible (over-protectiveness is bad)
-9) Keep unit tests as simple as possible (complexity is bad)
-*/
-
 class GuesserTest : public ::testing::Test
 {
 	protected:
